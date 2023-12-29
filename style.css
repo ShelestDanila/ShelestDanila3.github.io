@@ -1,0 +1,199 @@
+﻿body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(227,222,214);
+}
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.main-menu li {
+    display: inline;
+    margin-right: 10px;
+    flex: 1 1 auto;
+    height: 100%;
+}
+
+    .main-menu li:last-child {
+        margin-right: 0;
+    }
+
+.page {
+    overflow: hidden;
+    display: grid;
+    grid-template-areas: "header" "content" "footer";
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+    font-size: 1.5rem;
+    background-color: rgb(227,222,214);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 20px 20px
+   
+}
+
+
+.main-menu a {
+    text-decoration: none;
+    color: #524f4e;
+    font-weight: bold;
+    height: 100%;
+}
+
+p {
+    text-align: justify;
+}
+.logo {
+    height: 500px;
+    text-align: center;
+    background-image: url("https://www.escapefromtarkov.com/themes/eft/images/eft_logo_promo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo2 {
+    height: 500px;
+    text-align: center;
+    background-image: url("https://sun9-26.userapi.com/impg/pq2Jlqe7Gv54vwTy6o0urmdk_-IbQYEctu3HTg/mlxJbCtZM9k.jpg?size=604x453&quality=95&sign=7605c65ae32286f5637efac0026b9465&type=album");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    .footer {
+    background-color: black;
+    background-image: url(https://w.forfun.com/fetch/e9/e97703a37d8a830e59971bcf8707b368.jpeg?w=2500);
+    color: white;
+
+   
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.btn-white {
+    color: white !important;
+    border-color: white !important;
+}
+
+.btn:hover {
+    background: #000000;
+    box-shadow: 0 15px 20px rgb(47, 69, 57);
+    color: white;
+    transform: translateY(-7px);
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 2px;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.feedback-form {
+    position: relative;
+    margin-top: calc(50% - 50%);
+    max-width: 300px;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.middle-form {
+    position: relative;
+    margin-top: 10%;
+    max-width: 300px;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-field {
+    display: inline-block;
+    padding: 4px;
+    margin-top: 8px;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    //flex-direction: row-reverse;
+    //flex-wrap: nowrap|wrap|wrap-reverse;
+    //flex-grow: <2>;
+}
+
+.card {
+    text-align: center;
+    padding: 10px;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.card-text {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    text-align: left;
+}
